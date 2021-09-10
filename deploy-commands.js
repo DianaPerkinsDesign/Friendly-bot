@@ -9,7 +9,13 @@ const commands = [
     .setDescription("Replies with pong!"),
   new SlashCommandBuilder()
     .setName("compliment")
-    .setDescription("Replies with server info!"),
+    .setDescription("Replies with server info!")
+    .addStringOption((option) =>
+      option
+        .setName("user")
+        .setDescription("Enter a username")
+        .setRequired(true)
+    ),
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: "9" }).setToken(token);
