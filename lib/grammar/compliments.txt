@@ -1,0 +1,8 @@
+Hey <<%- name %>>, everyone says you <%- verbs.infinitive() %> <%- adverbs.manner() %>, and we believe them!
+<<%- name %>>, your <%- adjectives.singular() %> <%- nouns.singular() %> is totally <%- adjectives.singular() %>. <%- exclamations() %>!
+Can we just take a moment to recognize how <%- adjectives.singular() %> <<%- name %>> is!
+<<%- name %>> you are <%- adjectives.singular() %>, and <%- adverbs.manner() %> <%- adjectives.singular() %> to boot!
+For the next minute this channel is a <<%- name %>> appreciation zone. <%- exclamations() %>!
+Three cheers for <<%- name %>>! They are so <%- adverbs.manner() %> <%- adjectives.singular() %>!
+Guess what <<%- name %>>? You're <%- adjectives.singular() %>! <%- emoji.positive() %> <%- emoji.positive() %>
+<%- emoji.positive() %><%- emoji.positive() %> Heads up! <<%- name %>> is <%- adverbs.manner() %> <%- adjectives.singular() %>. That is all. <%- emoji.positive() %><%- emoji.positive() %>
